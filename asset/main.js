@@ -225,7 +225,7 @@ var app = new Vue (
 
             // Milestone 2
 
-            // FUNZIONE che serve a selezionare il conttattto tramite il CLICK 
+            // FUNZIONE che serve a selezionare il contatto tramite il CLICK 
             changeContact: function(i) { 
                 this.selectedContact = i
             },
@@ -298,7 +298,7 @@ var app = new Vue (
                 }
             },
 
-            // FUNZIONE usata per cancellare il
+            // FUNZIONE usata per cancellare il messaggio
             deleteMessage: function(i) { 
                 let menu = document.getElementsByClassName('message-menu')[i];
                 this.contacts[this.selectedContact].messages.splice(i,1)
